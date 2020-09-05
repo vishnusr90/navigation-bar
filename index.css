@@ -1,0 +1,38 @@
+.containter {
+    text-align: center;
+}
+
+.header {
+    height: 100px;
+    background: #34495e;
+    padding: 0 20px;
+    color: #ffffff;
+}
+
+.logo {
+    line-height: 100px;
+    float: left;
+    text-transform: uppercase;
+}
+
+.menu {
+    float: right;
+    line-height: 100px;
+}
+
+.menu a {
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 10px;
+    transition: 0.4s;
+}
+
+.show-menu, .hide-menu {
+    transition: 0.4s;
+}
+
+.menu a:hover, .show-menu:hover, .hide-menu:hover {
+    color: #3498db;
+
+}
